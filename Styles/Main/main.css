@@ -5,13 +5,14 @@
 :root {
 	--color-teal: #247B7B;
     --color-the-good-coder-green: #5AFD08;
+    --color-not-quite-black: #404041;
 
 }
 body,html{
     font-family: 'Open Sans';
     margin: 0;
     padding: 0;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.13px;
 }
 
 ul{
@@ -71,3 +72,45 @@ a:hover{
 .welcome-to-my-website a{
     color: white;
 }
+
+.section{
+    margin: 1rem;
+    padding: 0.9rem;
+
+}
+
+.section h1{
+    line-height: 0.6rem;
+}
+
+.no-yet{
+    color: gray;
+    font-weight: bold;
+}
+
+footer{
+    word-spacing: 0.1rem;
+    color: var(--color-not-quite-black);
+    position: absolute;
+    top: calc(100% - 3rem);
+    height: 3.1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.footer-menu #nav-link:hover{
+    text-decoration: underline;
+}
+
+.open-icon{
+    transform: translateY(2.5px);
+    margin-left: 0.2rem;
+    scale: 0.9;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
