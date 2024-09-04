@@ -51,6 +51,7 @@ nav{
     background-color: var(--color-teal);
     color: white;
     border-radius: 15px;
+    border: 2px solid #246060;
     
 }
 
@@ -80,7 +81,7 @@ a:hover{
 }
 
 .section h1{
-    line-height: 0.6rem;
+    margin: -0.6rem;
 }
 
 .no-yet{
@@ -114,3 +115,29 @@ footer{
 ::-webkit-scrollbar {
     width: 0px;
   }
+
+.warning-icon{
+    margin-right: 0.8rem;
+    font-size: 2rem;
+}
+
+.warning-sign{
+    margin: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    background-color: rgb(178, 0, 0);
+    color: white;
+    border-radius: 15px;
+    border: 2px solid rgb(115, 0, 0);
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    width: fit-content;
+    position: absolute;
+    left: 5%;
+}
+
+.text-content{
+    margin-left: 1.3rem;
+    max-width: 90%;
+}
